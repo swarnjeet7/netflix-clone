@@ -1,0 +1,25 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    background-color: transparent;
+    transition: background .3s ease-in;
+}
+.nav__black {
+    background-color: rgba(0,0,0,0.75);
+}
+
+.nav__logo {
+    width: 100px;
+    object-fit: contain;
+}
+
+.nav__smile {
+    width: 30px;
+    object-fit: contain;
+}
