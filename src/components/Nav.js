@@ -13,8 +13,8 @@ function Nav() {
     }, [])
     return (
         <nav className={`nav ${show && 'nav__black'}`}>
-            <img src="/img/logo.png" className="nav__logo" />
-            <img src="/img/smile.png" className="nav__smile" />
+            <img src="/netflix-clone/img/logo.png" className="nav__logo" />
+            <img src="/netflix-clone/img/smile.png" className="nav__smile" />
         </nav>
     )
 }
